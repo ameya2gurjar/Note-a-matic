@@ -4,14 +4,15 @@ CSCI 5117, Fall 2017, [assignment description](https://docs.google.com/document/
 
 ## App Info:
 
-* Team Name: TODO
-* App Name: TODO
-* App Link: <https://TODO.herokuapp.com/>
+* Team Name: A team has no name
+* App Name: Note-It!
+* App Link: <https://pure-scrubland-34177.herokuapp.com/>
 
 ### Students
 
-* First Last, x500@umn.edu
-* ...
+* Ameya Gurjar, gurja010@umn.edu
+* Pratik Kotwal, kotwa007@umn.edu
+* Aishwarya Malpani, malpa004@umn.edu
 
 
 ## Key Features
@@ -19,15 +20,24 @@ CSCI 5117, Fall 2017, [assignment description](https://docs.google.com/document/
 **Describe the most challenging features you implemented
 (one sentence per bullet, maximum 4 bullets):**
 
-* ...
+* Web Scraping from Walmart website
+* Sharing tasks among users
+* Sending emails to users with whom tasks are shared
 
 
 ## Screenshots of Site
 
-**[Add a screenshot of each key page (maximum 4)](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository)
-along with a very brief caption:**
+HomePage: Shows all lists
+![](/Screenshot1.png)
 
-![](https://media.giphy.com/media/Adqe9XUP3x9LO/giphy.gif)
+Create list : Create a new list
+![](/Screenshot2.png)
+
+Walmart data : Does webscrapping to fetch data from walmart website and display on the screen
+![](/Screenshot3.png)
+
+Progress bar : Shows overall progress done over the tasks
+![](/Screenshot4.png)
 
 
 ## External Dependencies
@@ -35,11 +45,4 @@ along with a very brief caption:**
 **Document integrations with 3rd Party code or services here.
 Please do not document required libraries (e.g., Express, Bulma).**
 
-* Library or service name: description of use
-* ...
-
-**If there's anything else you would like to disclose about how your project
-relied on external code, expertise, or anything else, please disclose that
-here:**
-
-...
+* Nodemailer to send emails
